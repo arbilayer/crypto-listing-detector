@@ -1,0 +1,12 @@
+{
+  "name": "crypto-listing-detector",
+  "version": "1.0.0",
+  "description": "Detect new crypto listings on Binance, Bybit, OKX, Bitget, MEXC, Gate and KuCoin by diffing their public market lists. Zero dependencies.",
+  "type": "module",
+  "bin": { "crypto-listing-detector": "./index.js" },
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18" },
+  "keywords": ["crypto", "new listings", "binance", "bybit", "okx", "mexc", "gate", "kucoin", "bitget", "listing alerts", "telegram bot", "trading"],
+  "homepage": "https://arbilayer.com/listings",
+  "license": "MIT"
+}
